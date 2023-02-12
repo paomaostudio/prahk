@@ -12,11 +12,40 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // 加载 _sidebar.md
+      loadSidebar: true,
+      auto2top   : true,
+      maxLevel   : 3,
+      subMaxLevel: 3,
+      loadFooter: true,
+      loadFooter: '_footer.md',
+      coverpage  : 'coverpage.md',
+      // logo : "logo.png",
+      search: 'auto', // 默认值
+      search: {
+                depth      : 3,
+                noData     : '没有结果',
+                placeholder: '搜索'
+            },
+
+      pagination: {
+      previousText: '上一章节',
+      // or
+      nextText: {
+        '/en/': 'NEXT',
+        '/': '下一章节'
+      },
+    crossChapter: true,
+    crossChapterText: true,
+  },
       name: '',
       repo: ''
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
 </body>
 </html>

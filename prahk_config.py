@@ -10,6 +10,7 @@ def print_line(word):
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 file = BASE_DIR + '\\config.txt'
+icon = BASE_DIR + "\\prahk.ico"
 print(file)
 with open(file, 'r', encoding='utf-8-sig') as f:
     lines = f.readlines()
@@ -61,7 +62,7 @@ if __name__ == '__main__':
             '退出', expand_x=True)]
     ]
 
-    window = sg.Window('配置修改', layout, font=('黑体', 15))
+    window = sg.Window('prAHK配置工具', layout, font=('黑体', 15), icon=icon)
     while True:
         event, values = window.read()
         if event in (None, '退出'):
@@ -69,6 +70,7 @@ if __name__ == '__main__':
         #if event in ("测试"):
             #print(colInput)
         if event in ("教程"):
+            pass
 
         if event in ("保存"):
             if values["debug"]:
