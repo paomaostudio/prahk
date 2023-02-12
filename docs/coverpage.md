@@ -7,11 +7,11 @@
 > 极大提升您使用Adobe Premiere Pro的工作效率
 
 - 多达10种预设
-- 轻量 简单 高效
+- 免费 轻量  高效
 - 5分钟上手
 - 支持多个Premiere版本
 
-[快速开始](#README)
+[快速开始](简介)
 [作者主页](https://space.bilibili.com/107540)
 [点击下载](https://github.com/paomaostudio/prahk)
 
