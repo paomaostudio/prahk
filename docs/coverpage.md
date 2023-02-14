@@ -1,4 +1,4 @@
-# <img src="prahkicon.png" alt="prahkicon" style="zoom:30%;" />
+# ![](icon128.png)
 
 # **prAHK <small>0.1.0</small>**
 
@@ -11,13 +11,13 @@
 - 5分钟上手
 - 支持多个Premiere版本
 
-[快速开始](简介)
+[快速开始](快速上手)
 [作者主页](https://space.bilibili.com/107540)
-[点击下载](https://github.com/paomaostudio/prahk)
+[点击下载](下载)
 
 
 
-![](bg.png)
+![bgv1](bgv1.png)
 
 ![color](#f0f0f0)
 
