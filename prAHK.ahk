@@ -8,9 +8,10 @@ SetWorkingDir, %A_ScriptDir%
 
 ; 获取脚本所在的文件夹路径
 path := A_ScriptDir
-
+setting = path "\config\prahk_config.py"
+py = path "\config\python3.10\python.exe"
 ; 拼接文件名到路径上
-path .= "\config.txt"
+path .= "\config\config.txt"
 FileReadLine, effesc, %path%, 4
 FileReadLine, efff2, %path%, 5
 FileReadLine, efff3, %path%, 6
@@ -387,6 +388,7 @@ F1 & 5::preset(eff5)
 F1 & t::ExitApp
 ; 退出
 F1 & r::Reload
+F1 & e::Run, config\python3.10\pythonw.exe config\prahk_config.pyw
 ; 重新加载脚本
 
 ; 窗口 > 选择查找框------- CTRL B
