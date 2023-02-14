@@ -1,0 +1,1 @@
+python3.10\python.exe prahk_config.pyw
